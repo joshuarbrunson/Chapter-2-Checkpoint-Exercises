@@ -1,11 +1,19 @@
-// Chapter 2 Checkpoint Exercises.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+//Joshua Brunson
+//09/09/2024
+//Chapter 2 Checkpoint Exercises
+//Checkpoint_2-17
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string name, address, phone_number;
+    name = "Joshua Randall Brunson";
+    address = "6712 Braebourne Ct, Suffolk, VA, 23435 ";
+    phone_number = "757-593-9476";
+    std::cout << "Name: " << name << std::endl;
+    std::cout << "Address: " << address << std::endl;
+    std::cout << "Phone Number: " << phone_number << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
