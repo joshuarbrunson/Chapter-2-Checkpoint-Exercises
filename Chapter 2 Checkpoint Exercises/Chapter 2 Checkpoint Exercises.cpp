@@ -1,19 +1,14 @@
 //Joshua Brunson
 //09/09/2024
 //Chapter 2 Checkpoint Exercises
-//Checkpoint_2-17
+//Checkpoint_2-20
 #include <iostream>
-#include <string>
 
 int main()
 {
-    std::string name, address, phone_number;
-    name = "Joshua Randall Brunson";
-    address = "6712 Braebourne Ct, Suffolk, VA, 23435 ";
-    phone_number = "757-593-9476";
-    std::cout << "Name: " << name << std::endl;
-    std::cout << "Address: " << address << std::endl;
-    std::cout << "Phone Number: " << phone_number << std::endl;
+    int age = 24;
+    float weight = 176;
+    std::cout << "My age is " << age << " and my weight is " << weight << " pounds" << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
